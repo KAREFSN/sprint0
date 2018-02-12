@@ -1,0 +1,55 @@
+cd [location to where my local repository is on PC] 
+
+git init
+
+git status 
+
+git add .
+
+rm second
+
+git checkout second
+
+git status
+
+git commit -m "committing first file" first
+
+git commit -m "committing second file" second
+
+git commit -m "committing third file" third
+
+git remote add spint https://github/KAREFSN/sprint0.git
+
+git remote -v
+
+git remote
+
+git pull sprint master
+
+git push sprint master
+
+git checkout -b ReadMe
+
+git status
+
+git add README.md
+
+git status
+
+git commit -m "committing new README.md file to new branch ReadMe" README.md
+
+git checkout master
+
+git branh
+
+git merge ReadMe
+
+git push sprint master
+
+git status
+
+git add AllMyCommands.txt
+
+git commit -m "committing AllyMyCommands.txt now"
+
+git push sprint0 master
