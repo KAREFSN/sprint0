@@ -52,4 +52,4 @@ git add AllMyCommands.txt
 
 git commit -m "committing AllyMyCommands.txt now"
 
-git push sprint0 master
+git push sprint master
